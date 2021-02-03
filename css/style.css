@@ -1,0 +1,149 @@
+@import url("fonts.css");
+
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html,
+body {
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+h1 {
+    color: #18191F;
+}
+
+.gradient {
+    background-image: url(../images/background1.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main_header {
+    margin-left: 198px
+}
+
+.main_h1 {
+    width: 869px;
+    height: 120px;
+    font-family: AlegreyaSans-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 149.4%;
+    letter-spacing: 0.045em;
+    color: #18191F;
+    /*margin-top: 125px;
+    margin-left: 198px*/
+
+}
+
+.main_h2 {
+    font-family: AlegreyaSans-Light;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #08509D;
+    /* margin-left: 198px*/
+}
+
+.offer_head {
+    font-family: AlegreyaSans-ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46.9412px;
+    line-height: 63px;
+    font-feature-settings: 'liga'off;
+    color: #18191F;
+}
+
+.offer_para {
+    font-family: AlegreyaSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.6029px;
+    line-height: 31px;
+    font-feature-settings: 'liga'off;
+    color: #18191F;
+}
+
+.col {}
+
+.offer_wrap1 {
+    background-color: #08509D;
+    color: white;
+    margin-bottom: 70px
+}
+
+.grid1 {
+    background-color:
+}
+
+.grid1 h4 {
+    font-family: AlegreyaSans-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.7368px;
+    line-height: 24px;
+    font-feature-settings: 'liga'off;
+    color: #FFFFFF;
+}
+
+.grid1 p {
+    font-family: AlegreyaSans-Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.2593px;
+    line-height: 141.19%;
+    width: 196.68px;
+    height: 57.65px;
+    color: #FBFBFB;
+}
+
+/*-----------------------------------------------------------------*/
+.section_blockquote {
+    background: #EEF4FF;
+}
+
+.blockquote_wrap {
+    background: #FFFFFF;
+    box-shadow: 0px 26.6667px 35.5556px rgba(212, 217, 232, 0.2);
+    border-radius: 8.88889px;
+    width: 759px;
+    height: 435px;
+    margin: auto;
+    margin-top: 55px
+}
+
+.blockquote_wrap h6,
+.blockquote_wrap p {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 178% */
+
+    font-feature-settings: 'liga'off;
+
+    color: #18191F;
+    margin: 33px
+}
